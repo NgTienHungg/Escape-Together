@@ -4,11 +4,11 @@ package game.state;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
+import java.awt.event.KeyEvent;
 import game.component.Vector2;
 import game.entity.Tag;
 import game.entity.Character;
 import game.manager.Game;
-import java.awt.event.KeyEvent;
 import static game.resource.ImageManager.*;
 
 public class GSAbout extends GameState {

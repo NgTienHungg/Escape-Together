@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import game.component.Animation;
+import game.resource.AudioManager;
 import static game.entity.TileMap.DataMap;
 import static game.resource.ImageManager.*;
 import static game.manager.Game.DELTA_TIME;
-import game.resource.AudioManager;
 
 public class Chessman extends GameObject {
 
@@ -58,7 +58,7 @@ public class Chessman extends GameObject {
 
         transform.position.x = Level.X + Tile.SIZE * col;
         transform.position.y = Level.Y + Tile.SIZE * row;
-        
+
         if (DataMap[row][col] == 6) {
             AudioManager.getInstance().getAudio("StandOnSwitch").play();
             Level.StandOnSwitch = true;

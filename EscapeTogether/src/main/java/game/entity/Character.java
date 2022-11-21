@@ -3,8 +3,8 @@ package game.entity;
 
 import java.awt.Graphics2D;
 import game.component.Animation;
-import static game.entity.TileMap.DataMap;
 import game.resource.AudioManager;
+import static game.entity.TileMap.DataMap;
 import static game.resource.ImageManager.*;
 
 public class Character extends Chessman {

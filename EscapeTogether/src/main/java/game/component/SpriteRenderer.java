@@ -15,6 +15,7 @@ public class SpriteRenderer {
     }
 
     public void render(Graphics2D g) {
-        g.drawImage(sprite, (int) gameObject.transform.position.x, (int) gameObject.transform.position.y, (int) gameObject.transform.size.x, (int) gameObject.transform.size.y, null);
+        g.drawImage(sprite, (int) gameObject.transform.position.x, (int) gameObject.transform.position.y,
+                (int) gameObject.transform.size.x, (int) gameObject.transform.size.y, null);
     }
 }

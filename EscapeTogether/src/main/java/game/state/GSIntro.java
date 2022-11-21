@@ -15,7 +15,7 @@ public class GSIntro extends GameState {
     private boolean fading = false;
     private int alpha = 60;
 
-    private float waitDuration = 0.8f;
+    private float waitDuration = 0.6f;
     private float timer = 0f;
 
     public GSIntro(GameStateType type) {

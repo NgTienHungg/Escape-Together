@@ -1,14 +1,14 @@
 /* Author: NgTienHungg */
 package game.component;
 
-import game.effect.IAction;
-import game.manager.Game;
-import java.awt.Color;
-import java.awt.Graphics2D;
 import java.awt.Point;
 import java.awt.Font;
-import game.state.GameState;
+import java.awt.Color;
+import java.awt.Graphics2D;
 import java.awt.event.KeyEvent;
+import game.manager.Game;
+import game.effect.IAction;
+import game.state.GameState;
 import static game.manager.Util.*;
 
 public class Button {

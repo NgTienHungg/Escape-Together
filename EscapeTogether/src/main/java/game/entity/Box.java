@@ -1,8 +1,8 @@
 /* Author: NgTienHungg */
 package game.entity;
 
-import java.awt.image.BufferedImage;
 import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
 import static game.resource.ImageManager.*;
 
 public class Box extends Chessman {

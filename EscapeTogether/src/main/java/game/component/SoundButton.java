@@ -3,8 +3,8 @@ package game.component;
 
 import java.awt.Color;
 import java.awt.Point;
-import java.awt.image.BufferedImage;
 import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
 import java.awt.event.KeyEvent;
 import game.manager.Game;
 import game.resource.AudioManager;

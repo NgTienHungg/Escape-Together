@@ -2,11 +2,11 @@
 package game.effect;
 
 import java.awt.Graphics2D;
-import java.awt.image.BufferedImage;
 import java.awt.AlphaComposite;
+import java.awt.image.BufferedImage;
 import game.manager.Window;
-import static game.resource.ImageManager.*;
 import game.state.GameState;
+import static game.resource.ImageManager.*;
 
 public class SceneTransition {
 
@@ -31,7 +31,7 @@ public class SceneTransition {
         enable = true;
         alpha = maxAlpha;
         fading = true;
-        
+
         GameState.IsChanging = false;
     }
 
@@ -43,7 +43,7 @@ public class SceneTransition {
 
         // action when complete close
         endAction = action;
-        
+
         GameState.IsChanging = true;
     }
 

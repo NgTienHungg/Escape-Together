@@ -2,11 +2,11 @@
 package game.input;
 
 import java.awt.Point;
-import java.awt.image.BufferedImage;
 import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
 import static game.resource.ImageManager.*;
 
-// hiện icon con trỏ chuột đi theo chuột trên màn hình, nhưng k đẹp lắmlawms
+// hiện icon con trỏ chuột đi theo chuột trên màn hình, nhưng k đẹp lắm
 public class Mouse {
 
     private BufferedImage icon;

@@ -5,13 +5,13 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.event.KeyEvent;
+import game.entity.Tag;
+import game.entity.Character;
 import game.manager.Game;
 import game.component.Button;
 import game.component.SoundButton;
 import game.component.Vector2;
 import game.resource.AudioManager;
-import game.entity.Character;
-import game.entity.Tag;
 import static game.resource.ImageManager.*;
 
 public class GSMenu extends GameState {

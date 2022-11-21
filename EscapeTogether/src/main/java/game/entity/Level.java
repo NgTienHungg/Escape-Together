@@ -1,11 +1,11 @@
 /* Author: NgTienHungg */
 package game.entity;
 
-import java.util.Scanner;
 import java.awt.Graphics2D;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Scanner;
 import game.manager.Game;
 import game.state.GSPlay;
 import game.state.GameStateMachine;

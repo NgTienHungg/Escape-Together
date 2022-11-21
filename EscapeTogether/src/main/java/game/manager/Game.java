@@ -4,13 +4,13 @@ package game.manager;
 import java.awt.Canvas;
 import java.awt.Graphics2D;
 import java.awt.image.BufferStrategy;
-import game.resource.ImageManager;
 import game.input.KeyboardInput;
 import game.input.MouseInput;
-import game.effect.SceneTransition;
 import game.state.GameState;
 import game.state.GameStateMachine;
 import game.state.GameStateType;
+import game.resource.ImageManager;
+import game.effect.SceneTransition;
 
 public class Game extends Canvas {
 
@@ -61,7 +61,6 @@ public class Game extends Canvas {
     }
 
     private void render() {
-
         BufferStrategy bs = this.getBufferStrategy();
         if (bs == null) {
             createBufferStrategy(3);
@@ -79,7 +78,6 @@ public class Game extends Canvas {
     }
 
     public void run() {
-
         double drawInterval = 1e9 / FPS;
         double delta = 0;
         long lastTime = System.nanoTime();
